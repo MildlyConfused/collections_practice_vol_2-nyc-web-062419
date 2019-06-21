@@ -9,4 +9,10 @@ def begins_with_r(tools)
 end
 
 
-puts begins_with_r(["buby", "rails"])
+def contain_a(arr)
+  newA = []
+  arr.include?
+  
+end
+
+puts contain_a(["buby", "rails"])
