@@ -19,4 +19,14 @@ def contain_a(arr)
   return newA
 end
 
+
+def first_wa(arr)
+  arr.each do |thing|
+    if thing[0] == "w" && thing[1] == "a"
+      return thing
+  end
+end
+
+
+
 puts contain_a(["buby", "rails"])
