@@ -30,3 +30,4 @@ end
 
 
 
+first_wa([""])
