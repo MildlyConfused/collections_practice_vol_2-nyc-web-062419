@@ -10,6 +10,6 @@ end
 
 
 def contain_a(arr)
-  puts arr.inspect
+  arr.inspect
 end
 
