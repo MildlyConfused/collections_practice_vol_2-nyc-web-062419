@@ -19,4 +19,3 @@ def contain_a(arr)
   return newA
 end
 
-puts contain_a(["buby", "rails"])
