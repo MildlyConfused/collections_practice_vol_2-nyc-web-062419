@@ -21,10 +21,10 @@ end
 
 
 def first_wa(arr)
+  newA = []
   arr.each do |thing|
-    if thing.start_with?("wa")
-      return thing
-    end
+    puts thing.class
+    
   end
 end
 
