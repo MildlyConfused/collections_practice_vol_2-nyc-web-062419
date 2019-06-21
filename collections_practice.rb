@@ -13,4 +13,3 @@ def contain_a(arr)
   puts arr.inspect
 end
 
-puts contain_a(["buby", "rails"])
