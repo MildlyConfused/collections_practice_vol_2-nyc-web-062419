@@ -10,7 +10,7 @@ end
 
 
 def contain_a(arr)
-  newA = []
   puts arr.inspect
 end
 
+puts contain_a(["buby", "rails"])
