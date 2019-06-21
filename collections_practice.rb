@@ -24,6 +24,7 @@ def first_wa(arr)
   arr.each do |thing|
     if thing.start_with?("wa")
       return thing
+    end
   end
 end
 
