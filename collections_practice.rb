@@ -8,4 +8,4 @@ def begins_with_r(tools)
 end
 
 
-begins_with_r(["ruby", "rails"])
+puts begins_with_r(["ruby", "rails"])
