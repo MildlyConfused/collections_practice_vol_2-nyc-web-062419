@@ -10,6 +10,13 @@ end
 
 
 def contain_a(arr)
-  arr.inspect
+  newA = []
+  arr.each do |thing|
+    if thing.include?("a") == true
+      newA.push(thing)
+    end
+  end
+  return newA
 end
 
+puts contain_a(["buby", "rails"])
