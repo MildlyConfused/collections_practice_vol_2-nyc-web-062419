@@ -22,8 +22,7 @@ end
 
 def first_wa(arr)
   arr.each do |thing|
-    if thing[0] == "w" && thing[1] == "a"
-      puts thin
+    if thing.start_with?("wa")
       return thing
   end
 end
