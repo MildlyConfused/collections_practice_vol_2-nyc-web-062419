@@ -29,4 +29,3 @@ end
 
 
 
-puts contain_a(["buby", "rails"])
