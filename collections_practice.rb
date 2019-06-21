@@ -23,6 +23,7 @@ end
 def first_wa(arr)
   arr.each do |thing|
     if thing[0] == "w" && thing[1] == "a"
+      puts thing
       return thing
   end
 end
